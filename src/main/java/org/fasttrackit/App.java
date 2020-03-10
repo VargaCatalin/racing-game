@@ -21,8 +21,8 @@ public class App
 //        carReference.engine.manufacturer = "VW";
 //        carReference.engine.capacity = 2000;
 
-        Engine engine1 - new Engine();
-        engine1.manufacturer -"VW";
+        Engine engine1 = new Engine();
+        engine1.manufacturer = "VW";
         engine1.capacity = 2000;
 
         carReference.engine = engine1;
