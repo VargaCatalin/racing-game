@@ -73,13 +73,10 @@ public class App
         System.out.println("Colour " + car2.colour);
         System.out.println("Damage "+ car2.damaged);
 
-
-
-
-
-
-
-
+      //modulo %  operation
+//        System.out.println(4 % 2);
+//        System.out.println(4 % 2 == 0);
+//        System.out.println(4 % 3);
 
 
 
