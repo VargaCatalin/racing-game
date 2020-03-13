@@ -28,7 +28,7 @@ public class Vehicle {
             System.out.println("Valid speed entered");
         }
 
-        // todo: use more fuel if speed > 120
+        //  todo: use more fuel if speed > 120
 
 
 
