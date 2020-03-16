@@ -28,7 +28,10 @@ public class Vehicle {
             System.out.println("Valid speed entered");
         }
 
-        //  todo: use more fuel if speed > 120
+        double mileageMultiplier =1;
+        if (speed > 120) {
+            mileageMultiplier = speed / 100;
+        }
 
 
 
@@ -44,6 +47,8 @@ public class Vehicle {
         System.out.println("Total traveled distance: " + totalDistance);
 
         double usedFuel = traveledDistance * mileage / 100;
+
+        usedFuel *= mileageMultiplier;
 
         fuelLevel = fuelLevel - usedFuel;
         // same result as the instruction above
